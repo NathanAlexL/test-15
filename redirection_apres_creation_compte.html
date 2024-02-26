@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection après création du compte</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="user-menu">
+            <span class="username">Nom d'utilisateur</span>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="confirmLogout()">Se déconnecter</a>
+                    <a href="gestion_compte.html">Gestion du compte</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="premium-offer">
+            <h1>Passer à Premium ?</h1>
+            <div class="premium-features">
+                <h2>Apprenez sans limites...</h2>
+                <p>--> Du contenu en illimité : Accédez aux cours, aux vidéos et aux quizz sans restrictions.</p>
+                <h2>Sans publicités...</h2>
+                <p>--> Suppression des annonces publicitaires.</p>
+                <h2>Et où que vous soyez !</h2>
+                <p>--> Téléchargez le contenu librement afin d'y avoir accès pour toujours !</p>
+            </div>
+            <button class="premium-button">Profiter de l'offre Premium</button>
+        </div>
+
+        <div class="account-stats">
+            <h2>Statistiques du compte :</h2>
+            <ul>
+                <li>Nombre de cours publiés : 0</li>
+                <li>Nombre total de vues et de mentions "j'aime" : 0</li>
+                <li>Nombre de cours, de quizz et de vidéos visionnés : 0</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
